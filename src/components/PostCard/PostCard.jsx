@@ -1,0 +1,11 @@
+export default function PostCard() {
+  return (
+    <div className="rounded-2xl bg-slate-200 shadow-lg p-6">
+      <div className="font-bold">Poll Heading</div>
+      <div className="mb-2">Poll Description</div>
+      <div className="font-light italic flex flex-col justify-center items-center">
+        Poll Content
+      </div>
+    </div>
+  );
+}
